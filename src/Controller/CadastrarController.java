@@ -1,6 +1,7 @@
 
 package Controller;
 
+import DAO.LivroDAO;
 import Model.Livro;
 import View.CadastrarView;
 import java.awt.Color;
@@ -24,8 +25,8 @@ public class CadastrarController implements ActionListener {
     private JComboBox checkAno;
     private JCheckBox checkLeu;
     private JButton btnCadastrar;
-    private List<Livro> listaLivros;
-    
+    private LivroDAO livroDao;
+    private LivroDAO outroLivroDao;
     
     public CadastrarController(
             JTextField textTitulo,
@@ -43,7 +44,7 @@ public class CadastrarController implements ActionListener {
         
         this.popularComboAno();
         this.popularComboGenero();
-        listaLivros = new ArrayList<>();
+        
     }
     
     
@@ -74,11 +75,11 @@ public class CadastrarController implements ActionListener {
         );
         
         
-        listaLivros.add(livro);
+        livroDao.insert(livro);
         
-        for (Livro livroLoop : listaLivros) {
-            System.out.println(livroLoop.toString());
-        }
+        System.out.println("-----CADASTRAR------");
+        outroLivroDao.imprimir();
+        
         
     }
 

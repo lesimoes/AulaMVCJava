@@ -20,7 +20,6 @@ public class Livro {
         this.setGenero(genero);
         this.setJaLeu(jaLeu);
     }
-
     
     public String toString(){
         return this.getTitulo() + " " + this.getAutor() + " " + this.getGenero() + " " + this.getAno(); 

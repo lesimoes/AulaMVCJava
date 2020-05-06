@@ -19,6 +19,7 @@ public class CadastrarView extends javax.swing.JFrame {
     
         CadastrarController controller = new CadastrarController(textTitulo, textAutor, checkGenero, checkAno, checkLeu, btnCadastrar);
         btnCadastrar.addActionListener(controller);
+        
     }
 
     /**

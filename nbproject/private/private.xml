@@ -5,8 +5,9 @@
         <group>
             <file>file:/Users/leandrosimoes/NetBeansProjects/LivroLocadora/src/Controller/ExibirController.java</file>
             <file>file:/Users/leandrosimoes/NetBeansProjects/LivroLocadora/src/View/InicioView.java</file>
-            <file>file:/Users/leandrosimoes/NetBeansProjects/LivroLocadora/src/livrolocadora/LivroLocadora.java</file>
+            <file>file:/Users/leandrosimoes/NetBeansProjects/LivroLocadora/src/Controller/InicioController.java</file>
             <file>file:/Users/leandrosimoes/NetBeansProjects/LivroLocadora/src/View/ExibirView.java</file>
+            <file>file:/Users/leandrosimoes/NetBeansProjects/LivroLocadora/src/Model/Livro.java</file>
             <file>file:/Users/leandrosimoes/NetBeansProjects/LivroLocadora/src/View/CadastrarView.java</file>
             <file>file:/Users/leandrosimoes/NetBeansProjects/LivroLocadora/src/Controller/CadastrarController.java</file>
         </group>

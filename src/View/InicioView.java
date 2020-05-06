@@ -4,15 +4,17 @@ import Controller.CadastrarController;
 import javax.swing.JFrame;
 import Controller.ExibirController;
 import Controller.InicioController;
+import DAO.LivroDAO;
 
 public class InicioView extends JFrame {
 
-
+    private LivroDAO livroDao;
+    
     public InicioView() {
         initComponents();
         
         
-        
+        livroDao.iniciar();
         ExibirView exibirView = new ExibirView();
         CadastrarView cadastrarView = new CadastrarView();
         
